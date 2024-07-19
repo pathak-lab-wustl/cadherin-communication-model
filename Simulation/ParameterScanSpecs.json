@@ -1,0 +1,56 @@
+{
+    "version":"4.2.3",
+    "parameter_list":{
+        "xDim":{
+            "values": [400]
+        },
+        "yDim":{
+            "values": [90]
+        },
+        "zDim":{
+            "values": [90]
+        },
+        "orgRadius":{
+            "code":"np.array([40])"
+        },
+        "totalSimTime":{
+            "values": [2000]
+        },
+        "numProcess":{
+            "values": [2]
+        },  
+        "thresh":{
+            "code": "np.array([0.05])"
+        },
+        "nThresh":{
+            "code": "np.array([4])"
+        },
+        "PL0":{            
+            "code":"np.array([20])"
+        },
+        "JLF":{            
+            "code":"np.array([2, 4, 6, 8, 10])"
+        },
+        "JLL":{            
+            "values":[5]
+        },
+        "JFF":{            
+            "code":"np.array([2, 4, 6, 8, 10])"
+        },
+        "JLE":{            
+            "values":[1]
+        },
+        "f_R":{            
+            "values":[5]
+        },
+        "cLF":{
+            "code":"np.array([0.2, 1.0])"
+        },
+        "measuresDataFreq":{
+            "values": [50]
+        },
+        "cellDataFreq": {
+            "values": [50]
+        }
+    }
+}
