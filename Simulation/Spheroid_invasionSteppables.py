@@ -252,7 +252,7 @@ class Spheroid_invasionSteppable(SteppableBasePy):
         type here the code that will run every frequency MCS
         :param mcs: current Monte Carlo step
         """
-
+        avgPL = 0
         for cell in self.cell_list:
             cell.dict["migDir"] = np.array([[1, 0, 0]]).T
 
